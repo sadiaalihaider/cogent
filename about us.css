@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+   
+   
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+.aboutus-content{
+    display: flex;
+    margin: 30px 30px;
+
+
+}
+.aboutus-box1{
+    width: 50%;
+    font-size: 40px;
+    margin: 30px 30px;
+    line-height: 60px;
+
+}
+.aboutus-box2{
+    width: 50%;
+    margin: 80px 30px;
+    font-size: 20px;
+    text-align: justify;
+}
+.aboutus-main{
+    display: flex;
+    margin: 10px 20px;
+    padding: 20px;
+}
+.aboutus-main-box1{
+    width: 50%;
+}
+.aboutus-main-box2{
+    width: 50%;
+    margin: 0px 130px;
+}
+.ceo{
+    display: flex;
+    height: 300px;
+    margin: 180px;
+}
+.ceo img{
+    width: 20%;
+    height: 20%;
+    border-radius: 100%;
+    
+}
+.ceo-box1{
+    width: 40%;
+    display: flex;
+}
+.ceo-box2{
+    width: 60%;
+    font-size: 20px;
+}
+hr{
+    border-color: rgb(172, 167, 167);
+}
+.sponsor-boxes{
+    columns: 4;
+    margin: 20px ;
+    
+   
+
+    
+}
+.sponsor-boxA{
+    
+    text-align: center;
+    font-size: 25px;
+    margin:90px ;
+    height: 200px;
+    line-height: 50px;
+
+}
+.sponsor-boxB{
+    width: 1100px;
+   
+    
+  
+}
+
+.aboutus-working{
+    text-align: center;
+    height: 200px;
+    margin: 90px;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.aboutus-facility{
+    display: flex;
+    height: 700px;
+    gap:80px;
+}
+    
+.facility-boxA{
+    width:1100px;
+
+}
+.facility-boxA .facility-box1 h1{
+  
+    font-size: 30px;
+    padding: 10px;
+}
+
+.facility-boxB{
+    width:1100px;
+
+}
+.facility-boxA .facility-box2 h1{
+    font-size: 30px;
+    padding: 10px;
+}
+.quality-box2  h2 span {
+    background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+    height: 7px;
+    width: 10px;
+  
+    border-radius: 100%;
+    padding: 10px;
+    margin-right: 30px;
+}
+.quality-box2 h1{
+    font-size: 50px;
+
+    margin: 40px;
+}
+.quality-box2 p{
+    margin-right: 40px;
+    padding:  10px 50px;
+}
+
